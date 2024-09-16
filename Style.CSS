@@ -1,0 +1,23 @@
+
+
+body {
+    background-color: rgb(137, 134, 134);
+}
+
+
+
+ 
+body {
+    background-image: url(Moving\ GIF.gif); /* Replace with the actual path to your GIF */
+    background-size: cover; /* Ensures the GIF covers the entire background */
+    background-position: center; /* Centers the GIF */
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-attachment: fixed; /* Makes sure the background stays in place when scrolling */
+    color: cornflowerblue; /* Ensures the text is visible on the background */
+}
+
+
+
+body{
+    background-color:rgba(194, 179, 156, 0.26)
+}
