@@ -12,28 +12,34 @@
                 margin: 0 10px;
             }
             
+            /* Adding the GIF background */
             body {
-                
-                color: black; 
-                background-color: blue;
+                background-image: url('Moving GIF.gif'); /* Replace 'Moving GIF.gif' with the actual path to your GIF */
+                background-size: cover; /* Ensures the GIF covers the entire background */
+                background-position: center; /* Centers the GIF */
+                background-repeat: no-repeat; /* Prevents repeating */
+                background-attachment: fixed; /* Makes sure the background stays in place when scrolling */
+                color: black; /* Ensures the text is visible on the background */
             }
             
             .banner {
-               
                 width: 60%; /* Adjust width as necessary */
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
             }
-            /* Style for the heading */
+            
             h1 {
                 text-align: center;
                 font-size: 2.5em;
                 margin-top: 20px;
-                color: purple; /* Makes the text stand out on the GIF */
+                color: purple;
             }
-            /
+            
             p {
                 text-align: center;
                 font-size: 1.5em;
-                color: purple; /* Ensures readability on the background */
+                color: black;
             }
         </style>
     </head>
