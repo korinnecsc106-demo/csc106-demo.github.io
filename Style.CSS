@@ -21,3 +21,36 @@ body {
 body{
     background-color:rgba(194, 179, 156, 0.26)
 }
+
+body {
+                
+    color: black; 
+    background-color: blue;
+}
+
+.banner 
+
+
+    
+
+    body {
+        background-image: url('Moving GIF.gif'); /* Replace 'Moving GIF.gif' with the actual path to your GIF */
+        background-size: cover; /* Ensures the GIF covers the entire background */
+        background-position: center; /* Centers the GIF */
+        background-repeat: no-repeat; /* Prevents repeating */
+        background-attachment: fixed; /* Makes sure the background stays in place when scrolling */
+        color: black; /* Ensures the text is visible on the background */
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 2.5em;
+        margin-top: 20px;
+        color: purple; /
+    }
+    /
+    p {
+        text-align: center;
+        font-size: 1.5em;
+        color: purple; /
+    }
